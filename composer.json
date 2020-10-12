@@ -1,0 +1,45 @@
+{
+    "name": "mj4444/yii-adminlte3",
+    "type": "library",
+    "description": "Yii3 AdminLTE 3.",
+    "keywords": [
+        "yii3",
+        "admin",
+        "AdminLTE",
+        "AdminLTE3"
+    ],
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/mj4444ru/yii-adminlte3",
+    "authors": [
+        {
+            "name": "Eugene Makhaev",
+            "email": "mj4444@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "almasaeed2010/adminlte": "~3.0",
+        "foxy/foxy": "^1.1@dev",
+        "yiisoft/html": "*",
+        "yiisoft/yii-jquery": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mj4444\\AdminLTE3\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        },
+        "config": {
+            "sort-packages": true
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

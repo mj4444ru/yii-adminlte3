@@ -1,0 +1,5 @@
+{
+    "require": {
+         "npm-asset/admin-lte": "^3.0"
+    }
+}
